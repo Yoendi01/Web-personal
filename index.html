@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta property="og:title" content="Web de Yoendi">
+    <meta property="og:description" content="Este es mi sitio web, donde doy información sobre mi trabajo">
+    <meta property="og:image" content="img/Perfil.jpg">
+    <!-- <meta property="og:url" content=""> -->
+    <meta property="og:type" content="website">
+    <title>🧑🏻‍💻 Yoendi</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#contact" class="link-contact">Contacto</a>
+            <a href="#services" class="link-services">Servicios</a>
+            <a href="#projects" class="link-projects">Proyectos</a>
+        </nav>
+    </header>
+    <section id="contact">
+        <div class="card">
+            <img src="img/icono.webp" alt="imagen">
+            <p class="greet">Hola👋🏻, me llamo <span>Yoendi</span></p>
+            <p class="description">Soy <span id="word">Informático</span> <span id="cursor"></span>🧑🏻‍💻 </p>
+            <p class="services-text">Ofrezco varios <a href="#services">servicios</a></p>
+            <div class="info">
+                <a href="tel:53422472" title="Llamar">📞 53422472</a>
+                <a href="mailto:yoendigy@proton.me" title="Enviar correo">✉️ yoendigy@proton.me</a>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <p class="title-services">Servicios que ofrezco</p>
+        <div class="cards">
+            <div>
+                <p>📱 Instalación y actualización de aplicaciones</p>
+            </div>
+            <div>
+                <p>⚙️ Generación de códigos QR:</p>
+
+                <ul>
+                    <li>Enzona</li>
+                    <li>Transfermóvil</li>
+                    <li>Personalizados</li>
+                </ul>
+            </div>
+            <div>
+                <p>💻 Programación:</p>
+
+                <ul>
+                    <li>Aplicaciones</li>
+                    <li>Páginas webs</li>
+                    <li>Hojas de Cálculos</li>
+                    <li>Scripts</li>
+                </ul>
+            </div>
+            <div>
+                <p>🤖 Automatización de procesos e integraciones con IA</p>
+
+            </div>
+            <div>
+                <p>💾 Restauración de memorias o discos dañados</p>
+
+            </div>
+            <div>
+                <p>🦠 Eliminación de Malware(virus informáticos)</p>
+
+            </div>
+            <div>
+                <p>🙃 Otros problemas o necesidades que tengan en el área tecnológica</p>
+
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="projects-title">Proyectos</p>
+        <div class="projects-list">
+            <div class="project-card">
+                <a class="image-link" href="img/Kiosko.webp" target="_blank" title="Ver imagen"><img src="img/Kiosko.png"
+                        alt="image"></a>
+                <p class="project-title">Kiosko App</p>
+                <p class="project-description">Aplicación para el control de un kiosko,
+                    con gestión de productos, inventario, ventas, y otras funcionalidades. </p>
+                <a href="https://kioskoejemploapp.onrender.com/" target="_blank" class="project-link">Ver proyecto</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="sw.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

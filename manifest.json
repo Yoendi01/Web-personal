@@ -1,0 +1,25 @@
+{
+  "name": "Yoendi - Web",
+  "short_name": "Yoendi",
+  "description": "Sitio web de Yoendi",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "lang": "es",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "img/Perfil.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icono.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
