@@ -1,19 +1,19 @@
 // ============================================
 // 1. CONFIGURACIÓN
 // ============================================
-const CACHE_NAME = 'yoendi-v2'; // 👈 cambia versión al actualizar
+const CACHE_NAME = 'yoendi-v3'; // 👈 cambia versión al actualizar
 
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/manifest.json',
-  '/app.js',
-  '/img/Perfil.jpg',
-  '/img/Kiosko.png',
-  '/img/icono.png',
-  '/icono.webp',
-  '/Kiosko.webp'
+  './',
+  './index.html',
+  './style.css',
+  './manifest.json',
+  './app.js',
+  './img/Perfil.jpg',
+  './img/Kiosko.png',
+  './img/icono.png',
+  './img/icono.webp',
+  './img/Kiosko.webp'
 ];
 
 // ============================================
