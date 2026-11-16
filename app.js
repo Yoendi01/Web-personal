@@ -23,3 +23,7 @@ function updateWord(){
     setTimeout(updateWord, 400)
     
 }
+
+if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+}
