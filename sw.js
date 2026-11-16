@@ -13,7 +13,8 @@ const ASSETS_TO_CACHE = [
   './img/Kiosko.png',
   './img/icono.png',
   './img/icono.webp',
-  './img/Kiosko.webp'
+  './img/Kiosko.webp',
+  './img/tienda.webp'
 ];
 
 // ============================================

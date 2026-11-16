@@ -183,17 +183,21 @@ nav a:hover {
     top: -15px;
 }
 
+#projects {
+    width: 90%;
+}
+
 .projects-list, .project-card {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
+    gap: 20px;
 }
 
 .project-card {
-    height: 350px;
-    width: 400px;
+    height: 500px;
+    width: 600px;
     transition: .3s ease-in-out;
 }
 
@@ -222,6 +226,11 @@ nav a:hover {
 
 .project-description {
     text-align: center;
+}
+
+.image-link {
+    height: 200px;
+    width: 100px;
 }
 
 .project-link {
@@ -292,7 +301,11 @@ footer {
     }
 
     .project-card {
-        width: 80%;
+        width: 90%;
+    }
+
+    .projects-list{
+        flex-direction: column;
     }
 }
 
