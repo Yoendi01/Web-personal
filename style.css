@@ -132,6 +132,13 @@ nav a:hover {
     transform: scale(.95);
 }
 
+.whatsapp-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 #services {
     display: flex;
     justify-content: center;
